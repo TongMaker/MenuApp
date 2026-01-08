@@ -77,9 +77,9 @@ menu = {
     "Bebidas": [
         {"es": "Cerveza Mahou", "zh": "", "desc": "330 ml", "price": "2,80 €"},
         {"es": "Mahou 5 Estrellas", "zh": "", "desc": "330 ml", "price": "3,50 €"},
-        {"es": "Coca-Cola", "zh": "", "desc": "330 ml", "price": "3,50 €"},
+        {"es": "Coca-Cola", "zh": "", "desc": "330 ml", "price": "2,80 €"},
         {"es": "Agua mineral", "zh": "", "desc": "500 ml", "price": "2,50 €"},
-        {"es": "Café", "zh": "", "desc": "Delta", "price": "2,50 €"},
+        {"es": "Café", "zh": "", "desc": "Delta", "price": "1,90 €"},
         {"es": "Infusión", "zh": "", "desc": "Té verde", "price": "2,50 €"},
     ]
 }
