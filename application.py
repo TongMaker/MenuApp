@@ -120,35 +120,76 @@ menu = {
         }
     ],
 
-    "🥤 Bebidas": [
-        {"es": "Cerveza Mahou", "zh": "", "desc": "330 ml", "price": "2,80 €", "img": ""},
-        {"es": "Mahou 5 Estrellas", "zh": "", "desc": "330 ml", "price": "3,50 €", "img": ""},
-        {"es": "Coca-Cola", "zh": "", "desc": "330 ml", "price": "3,50 €", "img": ""},
-        {"es": "Agua mineral", "zh": "", "desc": "500 ml", "price": "2,50 €", "img": ""},
-        {"es": "Café", "zh": "", "desc": "Delta", "price": "2,50 €", "img": ""},
-        {"es": "Infusión", "zh": "", "desc": "Té verde", "price": "2,50 €", "img": ""}
+    "Bebidas": [
+        {"es": "Cerveza Mahou", "zh": "", "desc": "330 ml", "price": "2,80 €"},
+        {"es": "Mahou 5 Estrellas", "zh": "", "desc": "330 ml", "price": "3,50 €"},
+        {"es": "Coca-Cola", "zh": "", "desc": "330 ml", "price": "3,50 €"},
+        {"es": "Agua mineral", "zh": "", "desc": "500 ml", "price": "2,50 €"},
+        {"es": "Café", "zh": "", "desc": "Delta", "price": "2,50 €"},
+        {"es": "Infusión", "zh": "", "desc": "Té verde", "price": "2,50 €"},
     ]
 }
 
-# ======================
-# RENDER MENÚ
-# ======================
-for seccion, platos in menu.items():
-    st.subheader(seccion)
-    for p in platos:
-        plato(
-            p["es"],
-            p["zh"],
-            p["desc"],
-            p["price"],
-            p["img"]
-        )
+import streamlit as st
 
-# ======================
-# FOOTER
-# ======================
+st.set_page_config(
+    page_title="Gastronomía de Xi'an",
+    layout="centered"
+)
+
+# --- ESTILOS ---
+st.markdown("""
+<style>
+body {
+    background-color: #f5f5f0;
+}
+.section {
+    border-top: 2px solid #b22222;
+    border-bottom: 2px solid #b22222;
+    padding: 10px 0;
+    margin-top: 30px;
+}
+.item {
+    margin-bottom: 14px;
+}
+.price {
+    float: right;
+    font-weight: bold;
+    color: #b22222;
+}
+.zh {
+    font-size: 1.1em;
+    color: #555;
+}
+.desc {
+    font-size: 0.9em;
+    color: #444;
+}
+</style>
+""", unsafe_allow_html=True)
+
+# --- CABECERA ---
+st.markdown("<h1 style='text-align:center;color:#b22222;'>Gastronomía de China · Xi’an</h1>", unsafe_allow_html=True)
+st.markdown("<h2 style='text-align:center;color:#d4af37;'>西安小吃</h2>", unsafe_allow_html=True)
+
+# --- MENÚ ---
+for section, items in menu.items():
+    st.markdown(f"<div class='section'><h3>{section}</h3></div>", unsafe_allow_html=True)
+
+    for item in items:
+        st.markdown(f"""
+        <div class='item'>
+            <strong>{item["es"]}</strong>
+            <span class='price'>{item["price"]}</span><br>
+            <div class='zh'>{item["zh"]}</div>
+            <div class='desc'>{item["desc"]}</div>
+        </div>
+        """, unsafe_allow_html=True)
+
+# --- PIE ---
 st.markdown("---")
 st.caption(
     "ℹ️ Algunos platos pueden contener gluten, frutos secos o marisco.\n\n"
     "📱 Menú digital · Escanee el QR · Xi’an"
 )
+st.caption("¡Gracias por su visita! 🍜")
