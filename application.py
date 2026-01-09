@@ -2,15 +2,22 @@ import streamlit as st
 import os
 
 
-# 隐藏 Streamlit 的 logo 和其他默认 UI 元素
+# 隐藏右下角的 "Hosted with Streamlit" 水印（包括红皇冠）
 st.markdown("""
     <style>
-    #MainMenu {visibility: hidden;}
-    footer {visibility: hidden;}
-    header {visibility: hidden;}
-    #stDecoration {display: none;}
+    /* 隐藏整个 footer 区域 */
+    footer {
+        visibility: hidden;
+    }
+    /* 如果 footer 被隐藏后留白，可以进一步压缩底部空间 */
+    .stApp {
+        padding-bottom: 0px;
+    }
     </style>
 """, unsafe_allow_html=True)
+
+
+
 
 
 
