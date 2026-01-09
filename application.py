@@ -39,29 +39,36 @@ menu = {
             "es": "Rougamo de Cerdo",
             "zh": "肉夹馍",
             "desc": "Hamburguesa estilo Xi’an rellena de cerdo cocido con especias.",
-            "price": "6,90 €",
+            "price": "5,85 €",
             "img": "images/肉夹馍.jpg"
         },
         {
             "es": "Jiaozi fritos / vapor",
             "zh": "煎饺",
             "desc": "Raviolis de cerdo y verduras, fritos o al vapor.",
-            "price": "8,90 €",
+            "price": "6,95 €",
             "img": "images/煎饺.jpg"
         },
         {
             "es": "Jiaozi en sopa",
             "zh": "汤水饺",
             "desc": "Jiaozi de carne y verdura en caldo caliente.",
-            "price": "9,90 €",
+            "price": "8,50 €",
             "img": "images/汤水饺.jpg"
         },
         {
             "es": "Empanadillas fritas",
             "zh": "锅贴",
             "desc": "Empanadillas crujientes por la base al estilo wok.",
-            "price": "8,90 €",
+            "price": "6,95 €",
             "img": "images/锅贴.jpg"
+        },
+        {
+            "es": "Rollito de primavera frita",
+            "zh": "炸春卷",
+            "desc": "Rollito crujientes de verdura.",
+            "price": "6,95 €",
+            "img": "images/春卷.jpg"
         }
     ],
 
@@ -70,28 +77,28 @@ menu = {
             "es": "Tallarines Xi’an",
             "zh": "西安油泼面",
             "desc": "Fideos anchos con chile, cebolleta y vinagre.",
-            "price": "8,90 €",
+            "price": "8,00 €",
             "img": "images/西安油泼面.jpg"
         },
         {
             "es": "Tallarines Zhajiang",
             "zh": "炸酱面",
             "desc": "Fideos con salsa de soja fermentada y cerdo.",
-            "price": "9,90 €",
+            "price": "8,50 €",
             "img": "images/炸酱面.jpg"
         },
         {
             "es": "Tallarines 2 en 1",
             "zh": "二合一面",
             "desc": "Mezcla Xi’an + Zhajiang.",
-            "price": "9,90 €",
+            "price": "9,50 €",
             "img": "images/二合一面.jpg"
         },
         {
             "es": "Tallarines con ternera",
             "zh": "牛肉面",
             "desc": "En caldo casero de ternera.",
-            "price": "10,90 €",
+            "price": "9,85 €",
             "img": "images/牛肉面.jpg"
         }
     ],
@@ -101,21 +108,21 @@ menu = {
             "es": "Arroz tres delicias",
             "zh": "三鲜炒饭",
             "desc": "Arroz con gambas, pollo, cerdo y verduras.",
-            "price": "8,90 €",
+            "price": "7,50 €",
             "img": "images/三鲜炒饭.jpg"
         },
         {
             "es": "Arroz con ternera",
             "zh": "牛肉盖饭",
             "desc": "Ternera salteada con cebolla y pimientos.",
-            "price": "10,90 €",
+            "price": "9,90 €",
             "img": "images/牛肉盖饭.jpg"
         },
         {
             "es": "Arroz Kung Pao",
             "zh": "宫保鸡丁饭",
             "desc": "Pollo picante con cacahuetes.",
-            "price": "9,90 €",
+            "price": "8,50 €",
             "img": "images/宫保鸡丁饭.jpg"
         }
     ],
@@ -123,6 +130,7 @@ menu = {
     "🥤 Bebidas": [
         {"es": "Cerveza Mahou", "zh": "", "desc": "330 ml", "price": "2,80 €", "img": ""},
         {"es": "Mahou 5 Estrellas", "zh": "", "desc": "330 ml", "price": "3,50 €", "img": ""},
+         {"es": "Cerveza tshindao", "zh": "", "desc": "330 ml", "price": "3,50 €", "img": ""},
         {"es": "Coca-Cola", "zh": "", "desc": "330 ml", "price": "2,80 €", "img": ""},
         {"es": "Agua mineral", "zh": "", "desc": "500 ml", "price": "2,50 €", "img": ""},
         {"es": "Café", "zh": "", "desc": "Delta", "price": "1,80 €", "img": ""},
