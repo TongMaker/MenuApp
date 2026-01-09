@@ -1,6 +1,20 @@
 import streamlit as st
 import os
 
+
+# 隐藏 Streamlit 的 logo 和其他默认 UI 元素
+st.markdown("""
+    <style>
+    #MainMenu {visibility: hidden;}
+    footer {visibility: hidden;}
+    header {visibility: hidden;}
+    #stDecoration {display: none;}
+    </style>
+""", unsafe_allow_html=True)
+
+
+
+
 # ======================
 # CONFIGURACIÓN PÁGINA
 # ======================
