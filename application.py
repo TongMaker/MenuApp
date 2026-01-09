@@ -135,7 +135,8 @@ menu = {
         {"es": "Coca-Cola", "zh": "", "desc": "330 ml", "price": "2,80 €", "img": ""},
         {"es": "Agua mineral", "zh": "", "desc": "500 ml", "price": "2,50 €", "img": ""},
         {"es": "Café", "zh": "", "desc": "Delta", "price": "1,80 €", "img": ""},
-        {"es": "Infusión", "zh": "", "desc": "Té verde", "price": "1,80 €", "img": ""}
+        {"es": "Infusión", "zh": "", "desc": "Té verde", "price": "1,80 €", "img": ""},
+        {"es": "Te chino", "zh": "", "desc": "Té verde", "price": "2,80 €", "img": ""}
     ]
 }
 
