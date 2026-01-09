@@ -64,7 +64,7 @@ menu = {
             "img": "images/肉夹馍.jpg"
         },
         {
-            "es": "Jiaozi fritos / vapor",
+            "es": "Jiaozi fritas",
             "zh": "煎饺",
             "desc": "Raviolis de cerdo y verduras, fritos o al vapor.",
             "price": "6,95 €",
